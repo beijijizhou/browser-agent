@@ -1,0 +1,8 @@
+[project]
+name = "browser-agent"  # Replace with your project name
+version = "0.1.0"       # Replace with your project version
+dependencies = [
+    "browser-use",
+    "google-genai>=1.10.0",
+    "langchain-google-genai>=2.1.2",
+] 
