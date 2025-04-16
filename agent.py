@@ -17,9 +17,11 @@ browser = Browser(
 
     )
 )
+task = "Open the Google Docs document at https://docs.google.com/document/d/1KKXki1dqmA4tEab9amhJT8_7-9wPXn2y/edit and remove 'C++' from the Programming Language section."
+
 async def main():
     agent = Agent(
-        task="help me to analyze current linked job page for me, because I try to apply for the jobs",
+        task=task,
         llm=llm,
         browser=browser,
 
